@@ -62,6 +62,7 @@ export class LoginComponent implements OnInit, OnDestroy {
 		private route: ActivatedRoute
 	) {
 		this.unsubscribe = new Subject();
+		console.log('hello')
 	}
 
 	/**
@@ -143,6 +144,7 @@ export class LoginComponent implements OnInit, OnDestroy {
 			.login(authData.email, authData.password)
 			.pipe(
 				tap(user => {
+					console.log(user);
 					if (user) {
 						this.store.dispatch(new Login({authToken: user.accessToken}));
 						this.router.navigateByUrl(this.returnUrl); // Main page

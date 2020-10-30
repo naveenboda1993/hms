@@ -44,6 +44,10 @@ const routes: Routes = [
         loadChildren: () => import('./views/pages/wizard/wizard.module').then(m => m.WizardModule),
       },
       {
+        path: 'superadmin',
+        loadChildren: () => import('./views/pages/superadmin/superadmin.module').then(m => m.SuperadminModule),
+      },
+      {
         path: 'builder',
         loadChildren: () => import('./views/theme/content/builder/builder.module').then(m => m.BuilderModule),
       },

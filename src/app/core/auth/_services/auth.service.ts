@@ -20,7 +20,7 @@ export class AuthService {
 
   // Authentication/Authorization
   login(email: string, password: string): Observable<User> {
-    return this.http.post<User>(API_USERS_URL, {email, password});
+    return this.http.post<User>('http://localhost:3000/api/login', {email, password});
   }
 
   getUserByToken(): Observable<User> {
@@ -34,7 +34,7 @@ export class AuthService {
     let httpHeaders = new HttpHeaders();
     httpHeaders = httpHeaders.set('Content-Type', 'application/json');
     // return this.http.post<User>(API_USERS_URL, user, {headers: httpHeaders})
-    return this.http.post<User>(' http://localhost:5000/api/register', user, {headers: httpHeaders})
+    return this.http.post<User>(' http://localhost:3000/api/register', user, {headers: httpHeaders})
       .pipe(
         map((res: User) => {
           return res;
