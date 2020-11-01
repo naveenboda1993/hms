@@ -45,8 +45,7 @@ testem.log
 /e2e/*.js
 /e2e/*.map
 
-# assets
-/src/assets
+# asset
 
 # System Files
 .DS_Store
