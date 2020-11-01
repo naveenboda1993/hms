@@ -1,0 +1,21 @@
+Daily ACCOUNT STATEMENT
+Current Room Occupancy report
+ROOM DUE STATEMENT
+Total DAILY Other COLLECTION Report
+Creditor and debtor Outstanding Report 
+Creditor collection Report
+
+Other collection Reports like 
+	{Food, miscellaneous, laundry, Taxi Hire}
+Montly Occupancy Analysis  Report
+Room Cleaning Report
+Daily Collection Report
+Emp Wise Collection
+
+DAILY WALKIN or ARRIVAL Report
+DAILY Checkout Departure Report
+EXPECTED ARRIVAL Report
+EXPECTED Departure Report 
+Regular Guest Report
+Room Blocking report when room Block & Release time 
+Agent commsion Report with name phone no to whom paid
