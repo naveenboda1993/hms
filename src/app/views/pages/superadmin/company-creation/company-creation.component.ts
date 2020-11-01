@@ -34,7 +34,13 @@ export class CompanyCreationComponent implements OnInit, AfterViewInit {
 		ccmonth: '01',
 		ccyear: '21',
 		cccvv: '123',
-		graseminutes:'hello'
+		graseminutes:'hello',
+		highrenthours:'',
+		lowrenthours:'',
+		advancerceiptno:'',
+		checkinbillno:'',
+		checkoutbillno:'',
+		serveripaddress:'',
 	};
 	submitted = false;
 
